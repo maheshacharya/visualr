@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="state">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>targeting:characteristic</sv:value>
+  </sv:property>
+  <sv:property sv:name="targeting:collector" sv:type="String">
+    <sv:value>geoStateProvince</sv:value>
+  </sv:property>
+  <sv:property sv:name="targeting:scorerClassName" sv:type="String">
+    <sv:value>org.macharya.targeting.StateProvinceScorer</sv:value>
+  </sv:property>
+</sv:node>
