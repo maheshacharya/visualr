@@ -33,3 +33,14 @@ Add following to depedencies in your cms pom.xml
    <artifactId>visualr-cms</artifactId>
    <version>0.1.0-SNAPSHOT</version>
  </dependency>
+ 
+ 
+Building & Running your project
+================================
+Follow directions in this page (below) to build and run your project
+https://www.onehippo.org/trails/getting-started/hippo-essentials-getting-started.html
+
+
+
+
+
