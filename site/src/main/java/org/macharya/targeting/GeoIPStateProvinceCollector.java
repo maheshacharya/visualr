@@ -44,7 +44,7 @@ public class GeoIPStateProvinceCollector extends AbstractCollector<StateProvince
                 return new StateProvinceRequestData(loc);
             }
         } else if (this.geoIPService != null) {
-            String ip = HstRequestUtils.getFarthestRemoteAddr(request);
+           String ip = HstRequestUtils.getFarthestRemoteAddr(request);
             StateLocation location = (StateLocation) this.geoIPService.getLocation(ip);
             return new StateProvinceRequestData(location);//"MA");
         } else {
