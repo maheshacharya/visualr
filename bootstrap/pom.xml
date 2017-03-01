@@ -15,7 +15,7 @@
 
   <modules>
     <module>configuration</module>
-    <module>content</module>
+   <!-- <module>content</module> -->
   </modules>
 
   <build>

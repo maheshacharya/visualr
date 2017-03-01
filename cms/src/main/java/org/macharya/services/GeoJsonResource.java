@@ -211,7 +211,7 @@ public class GeoJsonResource {
 
             }
         }
-        System.out.println("{\"valuelist\":[" + builder.toString() + "]}");
+
         return "{\"valuelist\":[" + builder.toString() + "]}";
     }
 
